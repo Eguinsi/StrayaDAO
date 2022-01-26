@@ -39,7 +39,7 @@ const App = () => {
 
 
     bundleDropModule
-      .getAllClaimerAddresses("0x0")
+      .getAllClaimerAddresses("0")
       .then((addresess) => {
         console.log("🚀 Members addresses", addresess);
         setMemberAddresses(addresess);
